@@ -15,6 +15,10 @@
 		4B0EC6511DD6C99D00054B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0EC64F1DD6C99D00054B8E /* LaunchScreen.storyboard */; };
 		4B0EC65C1DD6C99E00054B8E /* KYLinkageFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EC65B1DD6C99E00054B8E /* KYLinkageFrameTests.m */; };
 		4B0EC6671DD6C99E00054B8E /* KYLinkageFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EC6661DD6C99E00054B8E /* KYLinkageFrameUITests.m */; };
+		4B0EC6771DD6FE1500054B8E /* KYSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EC6761DD6FE1500054B8E /* KYSegmentView.m */; };
+		4B0EC67A1DD6FEAA00054B8E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EC6791DD6FEAA00054B8E /* FirstViewController.m */; };
+		4B0EC67D1DD6FEB800054B8E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EC67C1DD6FEB800054B8E /* SecondViewController.m */; };
+		4B0EC6801DD6FECC00054B8E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EC67F1DD6FECC00054B8E /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		4B0EC6621DD6C99E00054B8E /* KYLinkageFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYLinkageFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0EC6661DD6C99E00054B8E /* KYLinkageFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYLinkageFrameUITests.m; sourceTree = "<group>"; };
 		4B0EC6681DD6C99E00054B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B0EC6751DD6FE1500054B8E /* KYSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSegmentView.h; sourceTree = "<group>"; };
+		4B0EC6761DD6FE1500054B8E /* KYSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSegmentView.m; sourceTree = "<group>"; };
+		4B0EC6781DD6FEAA00054B8E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4B0EC6791DD6FEAA00054B8E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4B0EC67B1DD6FEB800054B8E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4B0EC67C1DD6FEB800054B8E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4B0EC67E1DD6FECC00054B8E /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		4B0EC67F1DD6FECC00054B8E /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		4B0EC6401DD6C99D00054B8E /* KYLinkageFrame */ = {
 			isa = PBXGroup;
 			children = (
+				4B0EC6741DD6FDFA00054B8E /* KYSegmentView */,
 				4B0EC6441DD6C99D00054B8E /* AppDelegate.h */,
 				4B0EC6451DD6C99D00054B8E /* AppDelegate.m */,
 				4B0EC6471DD6C99D00054B8E /* ViewController.h */,
@@ -110,6 +123,12 @@
 				4B0EC64F1DD6C99D00054B8E /* LaunchScreen.storyboard */,
 				4B0EC6521DD6C99D00054B8E /* Info.plist */,
 				4B0EC6411DD6C99D00054B8E /* Supporting Files */,
+				4B0EC6781DD6FEAA00054B8E /* FirstViewController.h */,
+				4B0EC6791DD6FEAA00054B8E /* FirstViewController.m */,
+				4B0EC67B1DD6FEB800054B8E /* SecondViewController.h */,
+				4B0EC67C1DD6FEB800054B8E /* SecondViewController.m */,
+				4B0EC67E1DD6FECC00054B8E /* ThirdViewController.h */,
+				4B0EC67F1DD6FECC00054B8E /* ThirdViewController.m */,
 			);
 			path = KYLinkageFrame;
 			sourceTree = "<group>";
@@ -138,6 +157,15 @@
 				4B0EC6681DD6C99E00054B8E /* Info.plist */,
 			);
 			path = KYLinkageFrameUITests;
+			sourceTree = "<group>";
+		};
+		4B0EC6741DD6FDFA00054B8E /* KYSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				4B0EC6751DD6FE1500054B8E /* KYSegmentView.h */,
+				4B0EC6761DD6FE1500054B8E /* KYSegmentView.m */,
+			);
+			path = KYSegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0EC67D1DD6FEB800054B8E /* SecondViewController.m in Sources */,
+				4B0EC6771DD6FE1500054B8E /* KYSegmentView.m in Sources */,
 				4B0EC6491DD6C99D00054B8E /* ViewController.m in Sources */,
+				4B0EC67A1DD6FEAA00054B8E /* FirstViewController.m in Sources */,
 				4B0EC6461DD6C99D00054B8E /* AppDelegate.m in Sources */,
 				4B0EC6431DD6C99D00054B8E /* main.m in Sources */,
+				4B0EC6801DD6FECC00054B8E /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
